@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  padding: 0 32px;
+  border-bottom: 1px solid grey;
+}
+
+header p {
+  font-size: 16px;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  width: 292px;
+  height: 16px;
+  justify-content: space-between;
+}
+
+.header-RRSS {
+  width: 290px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logos {
+  display: flex;
+  height: 100%;
+  gap: 16px;
+}
+
+.logo-container {
+  border: 1px solid black;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container > img {
+  width: 20px;
+  aspect-ratio: 1;
+}
+.lets-talk-button {
+  background-color: black;
+  border: none;
+  height: 100%;
+  width: 118px;
+  border-radius: 48px;
+}

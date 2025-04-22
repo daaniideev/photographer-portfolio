@@ -1,0 +1,56 @@
+.header-content {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 499px;
+  height: 240px;
+  justify-content: space-between;
+}
+
+.h1-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-container > img {
+  width: auto;
+  height: auto;
+}
+
+.h1-image-container {
+  margin: auto;
+  height: 16px;
+}
+
+.header-content button {
+  margin: 0 auto;
+  background-color: #fee400;
+  border-radius: 48px;
+  height: 40px;
+  border: none;
+  width: 209px;
+  font-family: montserrat;
+  height: 40px;
+}
+
+.header-content button p {
+  color: black;
+  font-size: 16px;
+  font-family: montserrat;
+}
+
+.images-content {
+  margin-top: 72px;
+  height: 560px;
+  width: 1376px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.images-content > .image-content {
+  height: 100%;
+  width: 448px;
+}

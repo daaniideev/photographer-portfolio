@@ -1,0 +1,38 @@
+.wraped-contents .wrapped-content p {
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wraped-contents .wrapped-content-title {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  height: 48px;
+  align-items: center;
+}
+
+.wraped-contents .wrapped-content > .text {
+  font-weight: 300;
+  padding-bottom: 16px;
+}
+
+.wraped-contents .wrapped-content img {
+  cursor: pointer;
+}
+
+.wraped-contents .wrap-button-open {
+  transform: rotate(45deg);
+}
+
+.text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.text-open {
+  max-height: 500px; /* lo suficientemente grande para el contenido */
+  opacity: 1;
+}
