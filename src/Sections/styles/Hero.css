@@ -29,25 +29,29 @@
   height: 40px;
   border: none;
   width: 209px;
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
   height: 40px;
 }
 
 .header-content button p {
   color: black;
   font-size: 16px;
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 .images-content {
   margin-top: 72px;
-  height: 560px;
-  width: 1376px;
   margin-left: auto;
   margin-right: auto;
+  width: 1376px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#images-content-1 {
+  height: 560px;
+  width: 1376px;
 }
 
 .images-content > .image-content {

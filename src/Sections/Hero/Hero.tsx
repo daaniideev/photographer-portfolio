@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         </button>
       </div>
 
-      <div className="images-content">
+      <div className="images-content" id="images-content-1">
         <div className="image-content">
           <img
             className="image-type-1"

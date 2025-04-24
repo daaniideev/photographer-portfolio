@@ -8,19 +8,18 @@
   width: 564px;
   height: 800px;
 }
-
 .about-me-text-content {
   width: 448px;
 }
 
 .about-me-text-content h2 {
   font-size: 36px;
-  font-family: Libre Baskerville;
+  font-family: "Libre Baskerville", serif; /* Añadí comillas y una fuente genérica de reserva */
   margin-bottom: 16px;
 }
 
 .about-me-text-content p {
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300; /* Peso ligero */
   font-size: 21px;
   line-height: 142%;
