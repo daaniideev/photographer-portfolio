@@ -152,7 +152,7 @@ const Latests: React.FC = () => {
               title="Solitary Walk – Beneath the Storm"
               text="A lone figure braves the elements, the wind tugging at his umbrella as raindrops blur the world around him in a dance of shadows and light."
             />
-            <img src="/images/photographies/image_12.png" />
+            <img src="/images/photographies/Image_12.png" />
           </div>
 
           <div
