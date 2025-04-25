@@ -1,6 +1,6 @@
 // components/Header.tsx
 import React from "react";
-import "../styles/Header.css";
+import "../styles/header.css";
 
 const Header: React.FC = () => {
   return (
