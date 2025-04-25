@@ -2,8 +2,7 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  width: 499px;
-  height: 240px;
+  height: 260px;
   justify-content: space-between;
 }
 
@@ -24,6 +23,7 @@
 
 .header-content button {
   margin: 0 auto;
+  cursor: pointer;
   background-color: #fee400;
   border-radius: 48px;
   height: 40px;
@@ -31,6 +31,10 @@
   width: 209px;
   font-family: "Montserrat", sans-serif;
   height: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.header-content button:hover {
+  transform: scale(1.1);
 }
 
 .header-content button p {
@@ -57,4 +61,10 @@
 .images-content > .image-content {
   height: 100%;
   width: 448px;
+}
+
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1000px #222021 inset !important;
+  -webkit-text-fill-color: inherit !important;
 }

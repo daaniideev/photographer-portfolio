@@ -1,0 +1,114 @@
+#section-contact {
+  background-color: #222021;
+  margin-bottom: 0;
+}
+
+.section-contact-content {
+  display: flex;
+  width: 1400px;
+  padding: 120px 148px;
+  margin: auto;
+  gap: 132px;
+}
+.section-contact-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 24px;
+  color: white;
+  width: 448px;
+}
+
+.section-contact-subtitle {
+  font-size: 21px;
+  line-height: 142%;
+  color: #f8f8f8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-contact-title {
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif; /* Añadí comillas y una fuente genérica de reserva */
+  font-size: 61px;
+}
+
+.yellow-color {
+  color: yellow;
+}
+
+.section-contact-fill-contact {
+  width: 564px;
+}
+
+.section-contact-fill-contact .contact-button {
+  background-color: #fee400;
+  color: #222021;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  border-radius: 48px;
+}
+
+.section-contact-fill-contact form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-container {
+  border: 2px solid #d6d7dd;
+  gap: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  height: 100%;
+}
+
+.input-container-textarea {
+  height: 250px;
+}
+
+.section-contact-fill-contact > form > :nth-child(1) {
+  border-radius: 20px 20px 0 0;
+}
+
+.section-contact-fill-contact > form > :nth-child(4) {
+  border-radius: 0 0 20px 20px;
+  height: 320px;
+}
+
+.input-container > img {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.input-container input,
+textarea {
+  flex-grow: 1;
+  color: white;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  border: none;
+  resize: none;
+  background-color: transparent !important;
+}
+
+.input-container input,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.input-container input::placeholder,
+textarea::placeholder {
+  color: #f8f8f86d;
+  opacity: 1;
+}

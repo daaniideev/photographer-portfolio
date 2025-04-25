@@ -1,0 +1,16 @@
+footer {
+  background-color: #222021;
+  height: 70px;
+  border-top: 1px solid #d6d7dd;
+}
+
+.footer-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content p {
+  color: #d6d7dd;
+  text-align: center;
+}

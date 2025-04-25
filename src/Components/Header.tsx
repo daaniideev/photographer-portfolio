@@ -6,9 +6,36 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="header-nav">
-        <p>About</p>
-        <p>Portfolio</p>
-        <p>Testimonials</p>
+        <p
+          onClick={() => {
+            const el = document.getElementById("section-about-me");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          About
+        </p>
+        <p
+          onClick={() => {
+            const el = document.getElementById("section-latests");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          Portfolio
+        </p>
+        <p
+          onClick={() => {
+            const el = document.getElementById("section-testimonial");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          Testimonials
+        </p>
       </div>
       <div className="header-logo">
         <img src="/images/logo.png" />
@@ -26,7 +53,15 @@ const Header: React.FC = () => {
           </div>
         </div>
 
-        <button className="lets-talk-button">
+        <button
+          onClick={() => {
+            const el = document.getElementById("section-contact");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+          className="lets-talk-button"
+        >
           <p>Let's Talk</p>
         </button>
       </div>

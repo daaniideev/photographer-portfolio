@@ -4,18 +4,20 @@ import "../styles/TestimonialCard.css";
 
 // Definimos los props correctamente
 interface ImageTextProps {
+  id: string;
   name: string;
   jobTitle: string;
   comment: string;
 }
 
 const TestimonialCard: React.FC<ImageTextProps> = ({
+  id,
   name,
   jobTitle,
   comment,
 }) => {
   return (
-    <div className="testimonial-card">
+    <div id={id} className="testimonial-card">
       <p className="testimonial-comment">"{comment}"</p>
       <div className="testimonial-person">
         <p className="testimonial-name">{name},</p>

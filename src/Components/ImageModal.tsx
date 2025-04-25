@@ -16,7 +16,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
 
   return (
     <div className="image-modal">
-      <div className="image-modal-overlay" />
+      <div onClick={onClose} className="image-modal-overlay" />
       <div className="image-modal-content">
         <button className="close-button" onClick={onClose}>
           &times;

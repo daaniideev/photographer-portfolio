@@ -8,18 +8,19 @@
 
 .testimonial-header {
   display: flex;
-
   justify-content: space-between;
 }
+
 .testimonial-title {
   display: flex;
-
+  margin-bottom: 40px;
   align-items: center;
   gap: 24px;
   flex-direction: row;
 }
+
 #section-testimonial h2 {
-  font-family: "Libre Baskerville", serif; /* Añadí comillas y una fuente genérica de reserva */
+  font-family: "Libre Baskerville", serif;
   font-size: 36px;
   text-align: start;
 }
@@ -48,10 +49,42 @@
   background-color: yellow;
 }
 
-.testimonial-container {
-  display: flex;
+#testimonial-container {
   gap: 16px;
-  height: 100%;
   height: 300px;
-  justify-content: space-between;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  user-select: none;
+  position: relative;
+}
+
+#testimonial-container::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-container-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-container {
+  width: 5%;
+  display: flex;
+  opacity: 0.1;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.arrow-container:hover {
+  opacity: 1;
+}
+.arrow-container > img {
+  width: 100%;
+}
+
+.testimonial-container-hide,
+.testimonial-container-hide:hover {
+  opacity: 0;
+  cursor: none;
 }

@@ -15,8 +15,15 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <h2>Capturing the unseen rhythms of the city.</h2>
-        <button>
-          <p>Discover my Journey</p>
+        <button
+          onClick={() => {
+            const el = document.getElementById("section-contact");
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
+          <p>Contact me</p>
         </button>
       </div>
 
