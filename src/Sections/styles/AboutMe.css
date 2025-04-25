@@ -28,3 +28,31 @@
 .wraped-contents {
   margin-top: 33px;
 }
+
+@media (max-width: 1400px) {
+  #section-about-me {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .about-me-text {
+    margin: auto;
+    width: 100%;
+    display: flex;
+  }
+  .about-me-text-content {
+    width: 100%;
+    margin: 0 5%;
+  }
+  .about-me-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-me-image > img {
+    height: 100%;
+    width: 100%;
+  }
+}

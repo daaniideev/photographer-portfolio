@@ -56,6 +56,7 @@
 #images-content-1 {
   height: 560px;
   width: 1376px;
+  display: flex;
 }
 
 .images-content > .image-content {
@@ -67,4 +68,29 @@ input:-webkit-autofill {
   background-color: transparent !important;
   -webkit-box-shadow: 0 0 0 1000px #222021 inset !important;
   -webkit-text-fill-color: inherit !important;
+}
+
+@media (max-width: 1400px) {
+  #images-content-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .images-content > .image-content {
+    flex: 1;
+  }
+
+  .images-content > .image-content img {
+    width: 100%;
+  }
+
+  .header-content {
+    height: auto;
+    gap: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }

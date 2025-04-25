@@ -24,8 +24,9 @@ const AboutMe: React.FC = () => {
           <p>
             A connoisseur of cityscapes and a storyteller through the lens,
             based in the vibrant heart of London. <br />
-            <br />A connoisseur of cityscapes and a storyteller through the
-            lens, based in the vibrant heart of London.{" "}
+            <br />
+            With over a decade of experience, I have been capturing the essence
+            of urban life, one frame at a time.{" "}
           </p>
           <div className="wraped-contents">
             <WrappedContent

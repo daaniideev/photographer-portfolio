@@ -17,10 +17,6 @@
   padding-bottom: 16px;
 }
 
-.wraped-contents .wrapped-content img {
-  cursor: pointer;
-}
-
 .wraped-contents .wrap-button-open {
   transform: rotate(45deg);
 }
@@ -35,4 +31,8 @@
 .text-open {
   max-height: 500px; /* lo suficientemente grande para el contenido */
   opacity: 1;
+}
+
+.wrapped-content {
+  cursor: pointer;
 }

@@ -17,7 +17,10 @@ const WrappedContent: React.FC<WrappedContentProps> = ({
   setIsOpen,
 }) => {
   return (
-    <div className="wrapped-content">
+    <div
+      onClick={setIsOpen} // Llamamos la función para actualizar el estado
+      className="wrapped-content"
+    >
       <div className="wrapped-content-title">
         <p className="title">{title}</p>
         <img
