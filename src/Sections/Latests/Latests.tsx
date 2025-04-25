@@ -106,14 +106,14 @@ const Latests: React.FC = () => {
           <div
             className="images-content-2-image-container"
             onClick={() =>
-              handleImageClick("/images/photographies/image_13.png")
+              handleImageClick("/images/photographies/Image_13.png")
             }
           >
             <ImageText
               title="Crosswalk – Between Worlds"
               text="A fleeting moment of transition, where footsteps bridge the gap between one side of the city and the other, captured in monochrome stillness."
             />
-            <img src="/images/photographies/image_13.png" />
+            <img src="/images/photographies/Image_13.png" />
           </div>
           <div
             className="images-content-2-image-container"
@@ -145,7 +145,7 @@ const Latests: React.FC = () => {
           <div
             className="flex-grow-1 images-content-2-image-container"
             onClick={() =>
-              handleImageClick("/images/photographies/image_12.png")
+              handleImageClick("/images/photographies/Image_12.png")
             }
           >
             <ImageText
@@ -158,14 +158,14 @@ const Latests: React.FC = () => {
           <div
             className="images-content-2-image-container"
             onClick={() =>
-              handleImageClick("/images/photographies/image_14.png")
+              handleImageClick("/images/photographies/Image_14.png")
             }
           >
             <ImageText
               title="Climbing to the Surface"
               text="A journey upwards, where the metal steps lead to the light, a path that connects the underground world to the city above."
             />
-            <img src="/images/photographies/image_14.png" />
+            <img src="/images/photographies/Image_14.png" />
           </div>
         </div>
       </div>
