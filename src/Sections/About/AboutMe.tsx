@@ -57,7 +57,7 @@ const AboutMe: React.FC = () => {
         </div>
       </div>
       <div className="about-me-image">
-        <img src="/images/photographies/image_4.png" />
+        <img src="/images/photographies/Image_4.png" />
       </div>
     </section>
   );
