@@ -1,5 +1,5 @@
 "use client";
-import Header from "@/Components/header";
+import Header from "@/Components/Header";
 import Hero from "@/Sections/Hero/Hero";
 import AboutMe from "@/Sections/About/AboutMe";
 import Latests from "@/Sections/Latests/Latests";
