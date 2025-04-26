@@ -10,7 +10,7 @@ header {
 
 header p {
   font-size: 16px;
-  color: white !important;
+  color: black !important;
 }
 
 .header-nav {
@@ -189,7 +189,7 @@ header p {
     display: flex;
     cursor: pointer;
     height: 50px;
-    border-bottom: 1px solid grey;
+    color: black;
     align-items: center;
   }
 
