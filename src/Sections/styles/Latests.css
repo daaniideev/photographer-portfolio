@@ -81,5 +81,22 @@
   #images-content-2 {
     width: 100%;
     height: auto;
+    display: flex;
+    margin-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #section-latests {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  #section-latests h2 {
+    margin-bottom: 0;
+  }
+
+  .image-text-content {
+    display: none !important;
   }
 }

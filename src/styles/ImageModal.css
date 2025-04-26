@@ -47,3 +47,15 @@
   max-height: 100%; /* La imagen no excederá la altura de la ventana */
   object-fit: contain; /* Mantener el tamaño natural de la imagen sin deformarla */
 }
+
+@media (max-width: 1400px) {
+  .image-modal-content > img {
+    width: 80%;
+    border: rebeccapurple;
+  }
+
+  .close-button {
+    top: -10%;
+    right: 40px;
+  }
+}

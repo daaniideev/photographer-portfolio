@@ -49,10 +49,13 @@
   .about-me-image {
     width: 100%;
     height: auto;
+    display: flex;
   }
 
   .about-me-image > img {
     height: 100%;
-    width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

@@ -38,7 +38,6 @@ const SectionContact: React.FC = () => {
                 required
                 className="contact-info"
               />
-              <img src="icons/must.png" />
             </div>
             {/*
             <div className="input-container">

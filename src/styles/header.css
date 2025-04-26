@@ -50,6 +50,11 @@ header p {
   justify-content: space-between;
 }
 
+#hamburguer-menu {
+  display: none;
+  cursor: pointer;
+}
+
 .header-logos {
   display: flex;
   height: 100%;
@@ -89,11 +94,106 @@ header p {
   transform: scale(1.1);
 }
 
+.sidebar {
+  display: none;
+}
+#close-button {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 @media (max-width: 1400px) {
   header {
     width: 100%;
     padding: 0;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    position: relative;
+  }
+  .header-logos {
+    height: auto;
+    width: 100%;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    width: 20%;
+  }
+
+  .close-button {
+    display: none;
+  }
+  .sidebar-button {
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .logo-container > img {
+    width: 100%;
+    padding: 10px;
+  }
+  .lets-talk-button {
+    height: 50px;
+    width: 100%;
+  }
+
+  .header-RRSS {
+    display: none;
+  }
+
+  #hamburguer-menu {
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 15px;
+    height: 40px;
+  }
+
+  .sidebar {
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+    right: 0;
+    padding: 20px;
+    width: 300px;
+    z-index: 999;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-between;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* <-- Empieza fuera de pantalla */
+    display: flex;
+
+    transition: transform 0.3s ease-in-out; /* <-- Suaviza el movimiento */
+  }
+
+  .open {
+    transform: translateX(0); /* <-- Lo trae a la pantalla */
+  }
+
+  .sidebar-navigations p {
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+    align-items: center;
+  }
+
+  .sidebar-navigations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
