@@ -148,6 +148,10 @@ header p {
     width: 100%;
   }
 
+  .lets-talk-button p {
+    color: white !important;
+  }
+
   .header-RRSS {
     display: none;
   }

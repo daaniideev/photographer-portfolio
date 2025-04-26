@@ -105,6 +105,7 @@ const Header: React.FC = () => {
             onClick={() => {
               const el = document.getElementById("section-contact");
               if (el) {
+                setOpenSiderbar(false);
                 el.scrollIntoView({ behavior: "smooth" });
               }
             }}
