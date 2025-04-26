@@ -10,6 +10,7 @@ header {
 
 header p {
   font-size: 16px;
+  color: white !important;
 }
 
 .header-nav {
@@ -118,8 +119,7 @@ header p {
   .header-logos {
     height: auto;
     width: 100%;
-    gap: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .logo-container {
@@ -175,7 +175,7 @@ header p {
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     transform: translateX(100%); /* <-- Empieza fuera de pantalla */
     display: flex;
-
+    border-left: 1px solid black;
     transition: transform 0.3s ease-in-out; /* <-- Suaviza el movimiento */
   }
 
